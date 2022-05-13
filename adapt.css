@@ -7,13 +7,20 @@
     }
 }
 @media(max-width: 900px) {
-    .main_block, .main_text {
+    .container {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .main_block, .main_text, a.tg_block {
+        margin: 0;
         display: block;
         text-align: center;
     }
     p.main {
-        max-width: none;
-        margin: 0;
+        margin: auto;
         text-align: center;
     }
     a.join, img.main_art {
@@ -54,5 +61,8 @@
     }
     p.main {
         font-size: 20px;
+    }
+    p.logo {
+        display: none;
     }
 }

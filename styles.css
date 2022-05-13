@@ -33,6 +33,23 @@ a {
     margin: auto;
 }
 
+a.tg_block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    background: #27A6E6;
+    overflow: hidden;
+    white-space: nowrap;
+    display: none;
+}
+.banner {
+    margin: 0 5px;
+    margin-bottom: -5px;
+}
+
 .container {
     max-width: 1300px;
     width: 100%;
@@ -52,13 +69,11 @@ a.logo {
     display: flex;
 }
 
-svg.logo {
+img.logo, p.logo {
     margin: auto;
-}
 
-img.logo_mini {
-    margin: auto;
-    display: none;
+    font-weight: 700;
+    font-size: 22px;
 }
 
 menu {
