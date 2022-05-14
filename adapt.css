@@ -19,6 +19,8 @@
         display: block;
         text-align: center;
     }
+    .main_text { margin-top: 25px; }
+
     p.main {
         margin: auto;
         text-align: center;
@@ -49,7 +51,7 @@
         width: 100%;
     }
     p.main {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 @media(max-width: 360px) {
