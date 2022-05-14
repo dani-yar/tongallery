@@ -9,10 +9,7 @@
 @media(max-width: 900px) {
     .container {
         position: absolute;
-        top: 30px;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        top: 30px; left: 0; right: 0; bottom: 0;
     }
     .main_block, .main_text, a.tg_block {
         margin: 0;
@@ -20,6 +17,7 @@
         text-align: center;
     }
     .main_text { margin-top: 25px; }
+    .main_block { margin-top: -50px;} 
 
     p.main {
         margin: auto;
