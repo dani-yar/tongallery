@@ -139,7 +139,6 @@ img.main_art {
     margin-left: -47px;
     pointer-events: none;
     transition: .4s;
-
     animation: artAnim 5s ease-in-out infinite;
 }
 
