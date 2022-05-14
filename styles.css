@@ -199,7 +199,7 @@ p.word {
     font-size: 20px;
 }
 
-img.coll, img.var {
+img.coll, .var {
     margin-top: 30px;
 }
 
